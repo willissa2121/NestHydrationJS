@@ -1,39 +1,39 @@
 {
-  "name": "nesthydrationjs",
-  "version": "1.0.6",
-  "description": "Provides nested objects from tabular data.",
-  "keywords": [
-    "Hydration",
-    "Tabular Data",
-    "Arrays",
-    "Table",
-    "Object",
-    "Nested"
-  ],
-  "license": "ISC",
-  "main": "NestHydrationJS.js",
-  "scripts": {
-    "coverage": "nyc jasmine",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "test": "jasmine",
-    "lint": "eslint NestHydrateJS.js spec/**/*.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:CoursePark/NestHydrationJS.git"
-  },
-  "dependencies": {
-    "lodash.isarray": "^4.0.0",
-    "lodash.isfunction": "^3.0.9",
-    "lodash.keys": "^4.2.0",
-    "lodash.values": "^4.3.0",
-    "lodash.isplainobject": "^4.0.6"
-  },
-  "devDependencies": {
-    "coveralls": "^3.0.1",
-    "eslint": "^4.19.1",
-    "jasmine": "^3.1.0",
-    "nyc": "^11.7.3"
-  },
-  "author": "Bluedrop Peformance Learning"
+	"name": "nesthydrationjs",
+	"version": "1.0.6",
+	"description": "Provides nested objects from tabular data.",
+	"keywords": [
+		"Hydration",
+		"Tabular Data",
+		"Arrays",
+		"Table",
+		"Object",
+		"Nested"
+	],
+	"license": "ISC",
+	"main": "NestHydrationJS.js",
+	"scripts": {
+		"coverage": "nyc jasmine",
+		"coveralls": "nyc report --reporter=text-lcov | coveralls",
+		"test": "jasmine",
+		"lint": "eslint NestHydrateJS.js spec/**/*.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:CoursePark/NestHydrationJS.git"
+	},
+	"dependencies": {
+		"lodash.isarray": "^4.0.0",
+		"lodash.isfunction": "^3.0.9",
+		"lodash.keys": "^4.2.0",
+		"lodash.values": "^4.3.0",
+		"lodash.isplainobject": "^4.0.6"
+	},
+	"devDependencies": {
+		"coveralls": "^3.0.8",
+		"eslint": "^4.19.1",
+		"jasmine": "^3.1.0",
+		"nyc": "^14.1.1"
+	},
+	"author": "Bluedrop Peformance Learning"
 }
