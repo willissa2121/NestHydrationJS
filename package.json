@@ -16,8 +16,7 @@
 		"coverage": "nyc jasmine",
 		"coveralls": "nyc report --reporter=text-lcov | coveralls",
 		"test": "jasmine",
-		"lint": "eslint NestHydrateJS.js spec/**/*.js",
-		"build": "rm -rf dist && babel NestHydrationJS.js --no-comments --out-dir dist --copy-files --ignore README.md"
+		"lint": "eslint NestHydrateJS.js spec/**/*.js"
 	},
 	"repository": {
 		"type": "git",
