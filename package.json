@@ -17,7 +17,7 @@
 		"coveralls": "nyc report --reporter=text-lcov | coveralls",
 		"test": "jasmine",
 		"lint": "eslint NestHydrateJS.js spec/**/*.js",
-		"build": "mkdir -p dist && cp -R *"
+		"build": "rm -rf dist && babel NestHydrationJS.js --no-comments --out-dir dist --copy-files --ignore README.md"
 	},
 	"repository": {
 		"type": "git",
@@ -26,11 +26,12 @@
 	"dependencies": {
 		"lodash.isarray": "^4.0.0",
 		"lodash.isfunction": "^3.0.9",
+		"lodash.isplainobject": "^4.0.6",
 		"lodash.keys": "^4.2.0",
-		"lodash.values": "^4.3.0",
-		"lodash.isplainobject": "^4.0.6"
+		"lodash.values": "^4.3.0"
 	},
 	"devDependencies": {
+		"babel-cli": "^6.26.0",
 		"coveralls": "^3.0.8",
 		"eslint": "^4.19.1",
 		"jasmine": "^3.1.0",
